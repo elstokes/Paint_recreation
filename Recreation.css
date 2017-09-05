@@ -1,54 +1,66 @@
-body
-  background: lightgray
-section
-  background: white
-  width: 80%
-  padding: 1em
-  overflow: auto
-  min-width: 30em
-  max-width: 50em
-  margin: auto
-h1
-  font-size: 3em
-  margin-bottom: 0.5em
-  font-family: sans-serif
-code
-  font-family: monospace
-  font-size: 0.85em
-  background: hsla(0, 0, 100, 0.7)
-  border: hsla(0, 0, 0, 0.3) solid 1px
-  padding: 0.1em
-  vertical-align: baseline
-    
+/* Check out different colors here: https://www.materialpalette.com/ */
+body{
+  background-color:#474a4f;
+}
 
-// Default div styling
-div
-  // These styles are for aesthetics only.
-  font-size: 18px
-  line-height: 1.3em
-  vertical-align: top
-  margin-bottom: 1em
-  padding: 1em
-  // This insures everything up to the border
-  // is included in the width
-  box-sizing: border-box
-  // The default width of my divs
-  width: 4%
-  height: 300px
-  
-.float
-  // These are aesthetic styles. Red = bad
-  background: lightgreen
-  border: solid black 1px
-  // Floated for positioning
-  float: left
-    
-// These elements are intended to be half the width of their 
-// parents
-.green
-  
-.orange
-  
-.red
-  
-.black
+.piece{
+  margin-top: 40px;
+  margin-left: 10px;
+  float:left;
+}
+
+.piece_2{
+  margin-top: 40px;
+  margin-right: 10px;
+  float:right;
+}
+
+.box {
+  min-height: 300px;
+  width: 800px;
+}
+
+.float{
+height:450px;
+width: 50px;
+background: #49dd33;
+float:right;
+}
+
+.dark_green{
+  background-color: #18A74F;
+}
+
+.light_green {
+  background-color: #96D13B;
+}
+
+.yeller {
+  background-color: #FDEA0A;
+}
+.orange{
+  background-color:#FF7728;
+}
+.carrot{
+  background-color:#F64F2C;
+}
+.red{
+  background-color:#DE3236;
+}
+.dark_red{
+  background-color:#B83554;
+}
+.sludge{
+  background-color:#B73853;
+}
+.purple{
+  background-color:#6F4493;
+}
+.aqua{
+  background-color:#2D5AB8;
+}
+.blue{
+  background-color:#0071B0;
+}
+.bright_green{
+  background-color:#02A345;
