@@ -1,6 +1,7 @@
 /* Check out different colors here: https://www.materialpalette.com/ */
+/*Formatting*/
 body{
-  background-color:#474a4f;
+  background-color:#666666;
 }
 
 .piece{
@@ -21,8 +22,8 @@ body{
 }
 
 .float{
-height:450px;
-width: 50px;
+height:900px;
+width: 80px;
 background: #49dd33;
 float:right;
 }
@@ -30,7 +31,7 @@ float:right;
 .dark_green{
   background-color: #18A74F;
 }
-
+/*colors*/
 .light_green {
   background-color: #96D13B;
 }
@@ -38,29 +39,42 @@ float:right;
 .yeller {
   background-color: #FDEA0A;
 }
+
 .orange{
   background-color:#FF7728;
 }
+
 .carrot{
   background-color:#F64F2C;
 }
+
 .red{
   background-color:#DE3236;
 }
+
 .dark_red{
   background-color:#B83554;
 }
+
 .sludge{
-  background-color:#B73853;
+  background-color:#95486C;
 }
+
 .purple{
-  background-color:#6F4493;
+  background-color:#714592;
 }
+
 .aqua{
   background-color:#2D5AB8;
 }
+
 .blue{
   background-color:#0071B0;
 }
+.swamp_green{
+  background-color:#018A7A
+}
+
 .bright_green{
   background-color:#02A345;
+}
